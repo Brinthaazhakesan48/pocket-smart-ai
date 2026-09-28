@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Recommendation History</h1>
+
+<div id="out" class="grid">
+    <p class="muted">Loading history...</p>
+</div>
+
+<script>
+requireAuth().then(async () => {
+    const out = document.getElementById("out");
+
+    try {
+        const data = await api("/api/history");
+
+        if (!data.length) {
+            out.innerHTML = `
+                <div class="card">
+                    <p>No saved recommendations yet.</p>
+                </div>
+            `;
+            return;
+        }
+
+        out.innerHTML = data.map((item) => `
+            <div class="card">
+                <span class="pill">${item.planner}</span>
+
+                <h3>${item.response.summary}</h3>
+
+                <p>
+                    ${new Date(item.created_at + "Z").toLocaleString()}
+                </p>
+
+                <a
+                    class="btn secondary"
+                    href="/api/recommendations-details/${item.id}"
+                    target="_blank"
+                >
+                    Details
+                </a>
+            </div>
+        `).join("");
+
+    } catch (error) {
+        console.error("History error:", error);
+
+        out.innerHTML = `
+            <div class="card">
+                <p class="danger">${error.message}</p>
+            </div>
+        `;
+    }
+});
+</script>
+
+{% endblock %}

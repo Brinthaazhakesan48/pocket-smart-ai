@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party Budget Planner - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar (PDF Page 34) -->
+  <nav class="navbar">
+    <a href="/dashboard" class="brand">
+      <i class="fa-solid fa-wallet"></i> Pocket<span>Smart</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+      <li><a href="/home-planner"><i class="fa-solid fa-couch"></i> Home Planner</a></li>
+      <li><a href="/party-planner" class="active"><i class="fa-solid fa-champagne-glasses"></i> Party Planner</a></li>
+      <li><a href="/jewelry-planner"><i class="fa-solid fa-gem"></i> Jewelry Planner</a></li>
+      <li><a href="/history"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+      <li><a href="/logout" class="nav-btn nav-btn-outline"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="planner-page-header">
+    <h1>Party Budget Planner</h1>
+    <p>Plan your perfect event with AI-powered budget recommendations</p>
+  </header>
+
+  <!-- Main Container -->
+  <main class="planner-container">
+    <div class="form-card">
+      <form id="party-budget-form">
+        <!-- Section 1: Basic Information -->
+        <div class="form-section-title">
+          <i class="fa-solid fa-coins"></i> Basic Information
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="total_budget">Total Budget (₹)</label>
+            <input type="number" id="total_budget" class="form-control" placeholder="e.g. 15000" min="500" value="10000" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="num_guests"><i class="fa-solid fa-users" style="color:#2563eb"></i> Number of Guests</label>
+            <input type="number" id="num_guests" class="form-control" min="1" value="15" required>
+          </div>
+        </div>
+
+        <!-- Section 2: Event Details -->
+        <div class="form-section-title" style="margin-top: 1.5rem;">
+          <i class="fa-solid fa-calendar-check"></i> Event Details
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="party_type"><i class="fa-solid fa-tag" style="color:#f59e0b"></i> Party Type</label>
+            <select id="party_type" class="form-control">
+              <option value="Birthday">Birthday</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Anniversary">Anniversary</option>
+              <option value="Corporate Event">Corporate Event</option>
+              <option value="House Party">House Party / Get-together</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="venue_type"><i class="fa-solid fa-location-dot" style="color:#ef4444"></i> Venue Type</label>
+            <select id="venue_type" class="form-control">
+              <option value="Home">Home / Residential</option>
+              <option value="Banquet Hall">Banquet Hall</option>
+              <option value="Restaurant / Cafe">Restaurant / Cafe</option>
+              <option value="Lawn / Outdoor">Lawn / Outdoor Garden</option>
+              <option value="Resort">Resort</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Section 3: Party Needs -->
+        <div class="form-section-title" style="margin-top: 1.5rem;">
+          <i class="fa-solid fa-clipboard-check"></i> Party Needs
+        </div>
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="needs_catering" checked>
+            <i class="fa-solid fa-utensils" style="color:#ea580c"></i> Catering
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="needs_decoration" checked>
+            <i class="fa-solid fa-wand-magic" style="color:#0284c7"></i> Decoration
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="needs_entertainment" checked>
+            <i class="fa-solid fa-music" style="color:#7c3aed"></i> Entertainment
+          </label>
+        </div>
+
+        <!-- Section 4: Additional Requirements -->
+        <div class="form-section-title" style="margin-top: 2rem;">
+          <i class="fa-solid fa-pen-to-square"></i> Additional Requirements
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="additional_requirements">Special requests, themes, dietary restrictions, etc.</label>
+          <textarea id="additional_requirements" class="form-control" rows="3" placeholder="Special requests, themes, vegetarian food preferences, live music..."></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="generate-btn" class="btn-primary" style="margin-top: 1.5rem; padding: 0.9rem;">
+          <i class="fa-solid fa-champagne-glasses"></i> <span>Generate Budget Plan</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Error Alert Box -->
+    <div id="error-box" style="display:none; background:#fee2e2; border:1px solid #f87171; color:#b91c1c; padding:1rem; border-radius:8px; margin-top:1.5rem;"></div>
+
+    <!-- Recommendations Result Display (PDF Page 35) -->
+    <div id="results-container" class="results-section">
+      <div class="results-card">
+        <div class="results-top-bar">
+          <h2 class="results-main-title">Your Party Budget Plan</h2>
+          <button onclick="window.print()" class="btn-print"><i class="fa-solid fa-print"></i> Print / Save</button>
+        </div>
+
+        <!-- Budget Summary -->
+        <div class="budget-summary-banner">
+          <div><i class="fa-solid fa-wallet"></i> Total Budget: ₹<span id="res-total-budget">0.00</span></div>
+          <div>Remaining: <span class="remaining-badge">₹<span id="res-remaining-budget">0.00</span></span></div>
+        </div>
+
+        <!-- Category Items Display -->
+        <div id="breakdown-items-container"></div>
+
+        <!-- Venue Suggestions Block -->
+        <div id="venue-suggestions-container" style="margin-top: 2rem; display:none;">
+          <div class="form-section-title">
+            <i class="fa-solid fa-building"></i> Venue Suggestions
+          </div>
+          <div id="venue-list" style="display:flex; flex-direction:column; gap:1rem;"></div>
+        </div>
+
+        <!-- Additional Suggestions -->
+        <div class="suggestions-card" id="suggestions-card" style="display:none;">
+          <div class="suggestions-title">
+            <i class="fa-solid fa-lightbulb" style="color: #f59e0b;"></i> Additional Suggestions
+          </div>
+          <ul class="suggestions-list" id="suggestions-list"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 PocketSmart AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const form = document.getElementById('party-budget-form');
+    const generateBtn = document.getElementById('generate-btn');
+    const resultsContainer = document.getElementById('results-container');
+    const errorBox = document.getElementById('error-box');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorBox.style.display = 'none';
+      resultsContainer.style.display = 'none';
+
+      generateBtn.disabled = true;
+      generateBtn.innerHTML = '<span class="spinner"></span> Generating AI Party Budget Plan...';
+
+      const payload = {
+        total_budget: parseFloat(document.getElementById('total_budget').value) || 0,
+        num_guests: parseInt(document.getElementById('num_guests').value) || 1,
+        party_type: document.getElementById('party_type').value,
+        venue_type: document.getElementById('venue_type').value,
+        needs_catering: document.getElementById('needs_catering').checked,
+        needs_decoration: document.getElementById('needs_decoration').checked,
+        needs_entertainment: document.getElementById('needs_entertainment').checked,
+        additional_requirements: document.getElementById('additional_requirements').value.trim()
+      };
+
+      try {
+        const response = await fetch('/party-budget', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (response.status === 401 || response.status === 307) {
+          window.location.href = '/login';
+          return;
+        }
+
+        const data = await response.json();
+
+        if (response.ok) {
+          renderPartyResults(data);
+          resultsContainer.style.display = 'block';
+          resultsContainer.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          errorBox.textContent = data.detail || 'Failed to generate party plan.';
+          errorBox.style.display = 'block';
+        }
+      } catch (err) {
+        errorBox.textContent = 'Server connection error. Please verify backend is running.';
+        errorBox.style.display = 'block';
+      } finally {
+        generateBtn.disabled = false;
+        generateBtn.innerHTML = '<i class="fa-solid fa-champagne-glasses"></i> <span>Generate Budget Plan</span>';
+      }
+    });
+
+    function renderPartyResults(data) {
+      document.getElementById('res-total-budget').textContent = (data.total_budget || 0).toLocaleString('en-IN', {minimumFractionDigits: 2});
+      document.getElementById('res-remaining-budget').textContent = (data.remaining_budget || 0).toLocaleString('en-IN', {minimumFractionDigits: 2});
+
+      const container = document.getElementById('breakdown-items-container');
+      container.innerHTML = '';
+
+      const breakdowns = data.budget_breakdown || [];
+      breakdowns.forEach(category => {
+        const catDiv = document.createElement('div');
+        catDiv.className = 'category-block';
+
+        const catName = category.category ? category.category.toUpperCase() : 'PARTY ALLOCATION';
+        const allocation = category.allocation ? `₹${parseFloat(category.allocation).toLocaleString('en-IN', {minimumFractionDigits: 2})}` : '';
+
+        let tableRows = '';
+        (category.items || []).forEach(item => {
+          let linksHtml = '<div class="shopping-links-wrap">';
+          const links = item.shopping_links || {};
+          for (const [platform, url] of Object.entries(links)) {
+            linksHtml += `<a href="${url}" target="_blank" rel="noopener" class="btn-platform btn-${platform}"><i class="fa-solid fa-arrow-up-right-from-square"></i> ${platform.toUpperCase()}</a>`;
+          }
+          linksHtml += '</div>';
+
+          tableRows += `
+            <tr>
+              <td style="font-weight: 600; color: #1e293b;">${item.name || 'Service'}</td>
+              <td style="color: #475569; font-size: 0.85rem;">${item.description || '-'}</td>
+              <td style="font-weight: 600; color: #047857;">₹${parseFloat(item.estimated_price || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</td>
+              <td>${item.quantity || 1}</td>
+              <td>${linksHtml}</td>
+            </tr>
+          `;
+        });
+
+        catDiv.innerHTML = `
+          <div class="category-header">
+            <span><i class="fa-solid fa-cubes" style="color:#2563eb"></i> ${catName}</span>
+            <span>Allocation: ${allocation}</span>
+          </div>
+          <table class="item-table">
+            <thead>
+              <tr>
+                <th>Service / Item</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Units</th>
+                <th>Vendors & Booking</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tableRows}
+            </tbody>
+          </table>
+        `;
+        container.appendChild(catDiv);
+      });
+
+      // Venue suggestions
+      const venues = data.venue_suggestions || [];
+      const venueContainer = document.getElementById('venue-suggestions-container');
+      const venueList = document.getElementById('venue-list');
+      venueList.innerHTML = '';
+      if (venues.length > 0) {
+        venues.forEach(v => {
+          let vLinksHtml = '<div class="shopping-links-wrap">';
+          for (const [platform, url] of Object.entries(v.search_links || {})) {
+            vLinksHtml += `<a href="${url}" target="_blank" rel="noopener" class="btn-platform btn-${platform}">${platform.toUpperCase()}</a>`;
+          }
+          vLinksHtml += '</div>';
+
+          const vCard = document.createElement('div');
+          vCard.style.cssText = 'border:1px solid #e2e8f0; border-radius:8px; padding:1.2rem; background:#f8fafc;';
+          vCard.innerHTML = `
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+              <h4 style="color:#1e293b; font-size:1.05rem;">${v.name}</h4>
+              <span style="font-weight:700; color:#047857;">₹${parseFloat(v.estimated_cost || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</span>
+            </div>
+            <p style="color:#64748b; font-size:0.85rem; margin-bottom:0.75rem;">Type: <strong>${v.type}</strong> | Capacity: <strong>${v.capacity || 'Flexible'}</strong></p>
+            <div>${vLinksHtml}</div>
+          `;
+          venueList.appendChild(vCard);
+        });
+        venueContainer.style.display = 'block';
+      } else {
+        venueContainer.style.display = 'none';
+      }
+
+      // Suggestions
+      const suggestions = data.additional_suggestions || [];
+      const suggCard = document.getElementById('suggestions-card');
+      const suggList = document.getElementById('suggestions-list');
+      suggList.innerHTML = '';
+      if (suggestions.length > 0) {
+        suggestions.forEach(s => {
+          const li = document.createElement('li');
+          li.textContent = s;
+          suggList.appendChild(li);
+        });
+        suggCard.style.display = 'block';
+      } else {
+        suggCard.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>

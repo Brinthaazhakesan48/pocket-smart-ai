@@ -1,0 +1,2464 @@
+{
+  "demo": [
+    {
+      "id": "rec_bded1dbd",
+      "timestamp": "Sep 28, 2026, 12:22 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Engagement Ceremony | Outfit Image: Yes",
+      "input": "Occasion: Engagement Ceremony | Outfit Image: Yes",
+      "input_data": {
+        "total_budget": 15000.0,
+        "occasion": "Engagement Ceremony",
+        "preferences": "Sapphire blue matching set",
+        "image": "/static/uploads/1790558520_test_outfit.jpg"
+      },
+      "result_summary": "Total Budget: \u20b915000.00 | Remaining: \u20b91500.00",
+      "summary": "Total Budget: \u20b915000.00 | Remaining: \u20b91500.00",
+      "result": {
+        "total_budget": 15000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Engagement Ceremony with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 6750.0,
+            "search_terms": "Engagement Ceremony choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Engagement+Ceremony+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Engagement+Ceremony+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Engagement+Ceremony+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 4500.0,
+            "search_terms": "traditional Engagement Ceremony designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Engagement+Ceremony+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Engagement+Ceremony+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Engagement+Ceremony+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 2250.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1500.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Engagement Ceremony.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Engagement Ceremony)"
+        }
+      },
+      "full_result": {
+        "total_budget": 15000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Engagement Ceremony with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 6750.0,
+            "search_terms": "Engagement Ceremony choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Engagement+Ceremony+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Engagement+Ceremony+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Engagement+Ceremony+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 4500.0,
+            "search_terms": "traditional Engagement Ceremony designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Engagement+Ceremony+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Engagement+Ceremony+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Engagement+Ceremony+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 2250.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1500.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Engagement Ceremony.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Engagement Ceremony)"
+        }
+      }
+    },
+    {
+      "id": "rec_dabb4bd3",
+      "timestamp": "Sep 28, 2026, 12:22 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Wedding Reception | Outfit Image: No",
+      "input": "Occasion: Wedding Reception | Outfit Image: No",
+      "input_data": {
+        "total_budget": 8000.0,
+        "occasion": "Wedding Reception",
+        "preferences": "Traditional Kundan with gold tones"
+      },
+      "result_summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      },
+      "full_result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      }
+    },
+    {
+      "id": "rec_666a5eb6",
+      "timestamp": "Sep 28, 2026, 12:22 PM",
+      "type": "party",
+      "recommendation_type": "party",
+      "input_summary": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input_data": {
+        "total_budget": 15000.0,
+        "num_guests": 20,
+        "party_type": "Birthday",
+        "venue_type": "Home",
+        "needs_catering": true,
+        "needs_decoration": true,
+        "needs_entertainment": true,
+        "additional_requirements": "Theme: Pastel blue, vegetarian appetizers"
+      },
+      "result_summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      },
+      "full_result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec_3518cc0f",
+      "timestamp": "Sep 28, 2026, 12:22 PM",
+      "type": "home",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input_data": {
+        "total_budget": 30000.0,
+        "num_lights": 6,
+        "num_fans": 3,
+        "num_furniture": 2,
+        "num_dining_tables": 1,
+        "has_living_room": true,
+        "has_kitchen": true,
+        "has_bedroom": true,
+        "additional_requirements": "Warm lighting and modern minimalist theme"
+      },
+      "result_summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      },
+      "full_result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      }
+    },
+    {
+      "id": "rec_f29742a0",
+      "timestamp": "Sep 28, 2026, 12:13 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Engagement Ceremony | Outfit Image: Yes",
+      "input": "Occasion: Engagement Ceremony | Outfit Image: Yes",
+      "input_data": {
+        "total_budget": 15000.0,
+        "occasion": "Engagement Ceremony",
+        "preferences": "Sapphire blue matching set",
+        "image": "/static/uploads/1790558025_test_outfit.jpg"
+      },
+      "result_summary": "Total Budget: \u20b915000.00 | Remaining: \u20b91500.00",
+      "summary": "Total Budget: \u20b915000.00 | Remaining: \u20b91500.00",
+      "result": {
+        "total_budget": 15000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Engagement Ceremony with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 6750.0,
+            "search_terms": "Engagement Ceremony choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Engagement+Ceremony+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Engagement+Ceremony+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Engagement+Ceremony+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 4500.0,
+            "search_terms": "traditional Engagement Ceremony designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Engagement+Ceremony+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Engagement+Ceremony+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Engagement+Ceremony+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 2250.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1500.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Engagement Ceremony.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Engagement Ceremony)"
+        }
+      },
+      "full_result": {
+        "total_budget": 15000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Engagement Ceremony with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 6750.0,
+            "search_terms": "Engagement Ceremony choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Engagement+Ceremony+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Engagement+Ceremony+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Engagement+Ceremony+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Engagement+Ceremony+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 4500.0,
+            "search_terms": "traditional Engagement Ceremony designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Engagement+Ceremony+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Engagement+Ceremony+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Engagement+Ceremony+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Engagement+Ceremony+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 2250.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1500.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Engagement Ceremony.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Engagement Ceremony)"
+        }
+      }
+    },
+    {
+      "id": "rec_64a30f82",
+      "timestamp": "Sep 28, 2026, 12:13 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Wedding Reception | Outfit Image: No",
+      "input": "Occasion: Wedding Reception | Outfit Image: No",
+      "input_data": {
+        "total_budget": 8000.0,
+        "occasion": "Wedding Reception",
+        "preferences": "Traditional Kundan with gold tones"
+      },
+      "result_summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      },
+      "full_result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      }
+    },
+    {
+      "id": "rec_64d00067",
+      "timestamp": "Sep 28, 2026, 12:13 PM",
+      "type": "party",
+      "recommendation_type": "party",
+      "input_summary": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input_data": {
+        "total_budget": 15000.0,
+        "num_guests": 20,
+        "party_type": "Birthday",
+        "venue_type": "Home",
+        "needs_catering": true,
+        "needs_decoration": true,
+        "needs_entertainment": true,
+        "additional_requirements": "Theme: Pastel blue, vegetarian appetizers"
+      },
+      "result_summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      },
+      "full_result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec_3bc8f6b6",
+      "timestamp": "Sep 28, 2026, 12:13 PM",
+      "type": "home",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input_data": {
+        "total_budget": 30000.0,
+        "num_lights": 6,
+        "num_fans": 3,
+        "num_furniture": 2,
+        "num_dining_tables": 1,
+        "has_living_room": true,
+        "has_kitchen": true,
+        "has_bedroom": true,
+        "additional_requirements": "Warm lighting and modern minimalist theme"
+      },
+      "result_summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      },
+      "full_result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      }
+    },
+    {
+      "id": "rec_2cd57ed2",
+      "timestamp": "Sep 28, 2026, 12:12 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Wedding | Outfit Image: Yes",
+      "input": "Occasion: Wedding | Outfit Image: Yes",
+      "input_data": {
+        "total_budget": 12000.0,
+        "occasion": "Wedding",
+        "preferences": "Royal blue matching necklace",
+        "image": "/static/uploads/1790557962_test_outfit.jpg"
+      },
+      "result_summary": "Total Budget: \u20b912000.00 | Remaining: \u20b91200.00",
+      "summary": "Total Budget: \u20b912000.00 | Remaining: \u20b91200.00",
+      "result": {
+        "total_budget": 12000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 5400.0,
+            "search_terms": "Wedding choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 3600.0,
+            "search_terms": "traditional Wedding designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1800.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1200.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Wedding)"
+        }
+      },
+      "full_result": {
+        "total_budget": 12000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 5400.0,
+            "search_terms": "Wedding choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 3600.0,
+            "search_terms": "traditional Wedding designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1800.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 1200.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ],
+        "outfit_analysis": {
+          "colors": [
+            "Royal Blue",
+            "Warm Gold / Silver Accents"
+          ],
+          "style": "Indo-Western / Festive",
+          "formality": "Formal (Wedding)"
+        }
+      }
+    },
+    {
+      "id": "rec_32554cfa",
+      "timestamp": "Sep 28, 2026, 12:12 PM",
+      "type": "jewelry",
+      "recommendation_type": "jewelry",
+      "input_summary": "Occasion: Wedding Reception | Outfit Image: No",
+      "input": "Occasion: Wedding Reception | Outfit Image: No",
+      "input_data": {
+        "total_budget": 8000.0,
+        "occasion": "Wedding Reception",
+        "preferences": "Traditional Kundan with gold tones"
+      },
+      "result_summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "summary": "Total Budget: \u20b98000.00 | Remaining: \u20b9800.00",
+      "result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      },
+      "full_result": {
+        "total_budget": 8000.0,
+        "jewelry_recommendations": [
+          {
+            "item_type": "Necklace / Pendant",
+            "description": "Elegant statement piece designed for Wedding Reception with intricate craftsmanship.",
+            "style": "Contemporary Ethnic",
+            "estimated_price": 3600.0,
+            "search_terms": "Wedding Reception choker necklace pendant",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=Wedding+Reception+choker+necklace+pendant",
+              "flipkart": "https://www.flipkart.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "bluestone": "https://www.bluestone.com/search.html?query=Wedding+Reception+choker+necklace+pendant",
+              "tanishq": "https://www.tanishq.co.in/search?q=Wedding+Reception+choker+necklace+pendant",
+              "caratlane": "https://www.caratlane.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "melorra": "https://www.melorra.com/search?q=Wedding+Reception+choker+necklace+pendant",
+              "meesho": "https://www.meesho.com/search?q=Wedding+Reception+choker+necklace+pendant"
+            }
+          },
+          {
+            "item_type": "Earrings / Jhumkas",
+            "description": "Complementary drop earrings with lightweight design for all-day comfort.",
+            "style": "Traditional Filigree",
+            "estimated_price": 2400.0,
+            "search_terms": "traditional Wedding Reception designer earrings",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=traditional+Wedding+Reception+designer+earrings",
+              "flipkart": "https://www.flipkart.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "bluestone": "https://www.bluestone.com/search.html?query=traditional+Wedding+Reception+designer+earrings",
+              "tanishq": "https://www.tanishq.co.in/search?q=traditional+Wedding+Reception+designer+earrings",
+              "caratlane": "https://www.caratlane.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "melorra": "https://www.melorra.com/search?q=traditional+Wedding+Reception+designer+earrings",
+              "meesho": "https://www.meesho.com/search?q=traditional+Wedding+Reception+designer+earrings"
+            }
+          },
+          {
+            "item_type": "Bracelet / Bangle / Ring",
+            "description": "Delicate adjustable cuff or cocktail ring that adds subtle elegance.",
+            "style": "Minimalist Chic",
+            "estimated_price": 1200.0,
+            "search_terms": "adjustable gemstone cocktail ring bracelet",
+            "shopping_links": {
+              "amazon": "https://www.amazon.in/s?k=adjustable+gemstone+cocktail+ring+bracelet",
+              "flipkart": "https://www.flipkart.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "bluestone": "https://www.bluestone.com/search.html?query=adjustable+gemstone+cocktail+ring+bracelet",
+              "tanishq": "https://www.tanishq.co.in/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "caratlane": "https://www.caratlane.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "melorra": "https://www.melorra.com/search?q=adjustable+gemstone+cocktail+ring+bracelet",
+              "meesho": "https://www.meesho.com/search?q=adjustable+gemstone+cocktail+ring+bracelet"
+            }
+          }
+        ],
+        "remaining_budget": 800.0,
+        "styling_tips": [
+          "Balance your jewelry: if wearing an elaborate necklace, pair it with subtle stud earrings for Wedding Reception.",
+          "Match your metal undertones: Gold and brass jewelry complement warm palettes, while silver and platinum suit cool tones.",
+          "Check BlueStone and CaratLane for BIS-hallmarked and certified designs within your budget.",
+          "Store fashion jewelry in dry, airtight pouches to maintain luster and avoid tarnishing."
+        ]
+      }
+    },
+    {
+      "id": "rec_ac9d107c",
+      "timestamp": "Sep 28, 2026, 12:12 PM",
+      "type": "party",
+      "recommendation_type": "party",
+      "input_summary": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input": "Party: Birthday | Guests: 20 | Venue: Home",
+      "input_data": {
+        "total_budget": 15000.0,
+        "num_guests": 20,
+        "party_type": "Birthday",
+        "venue_type": "Home",
+        "needs_catering": true,
+        "needs_decoration": true,
+        "needs_entertainment": true,
+        "additional_requirements": "Theme: Pastel blue, vegetarian appetizers"
+      },
+      "result_summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "summary": "Total Budget: \u20b915000.00 | Remaining: \u20b95950.00",
+      "result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      },
+      "full_result": {
+        "total_budget": 15000.0,
+        "budget_breakdown": [
+          {
+            "category": "venue",
+            "allocation": 0.0,
+            "items": [
+              {
+                "name": "Home Event Space",
+                "description": "Hosting 20 guests for Birthday.",
+                "estimated_price": 0.0,
+                "quantity": 1,
+                "search_terms": "Home party venue",
+                "shopping_links": {
+                  "google": "https://www.google.com/search?q=Home+party+venue",
+                  "booking": "https://www.booking.com/search.html?ss=Home+party+venue",
+                  "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+venue",
+                  "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+venue",
+                  "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+venue"
+                }
+              }
+            ]
+          },
+          {
+            "category": "catering",
+            "allocation": 5000.0,
+            "items": [
+              {
+                "name": "Buffet Meal & Refreshments (Swiggy / Zomato Catering)",
+                "description": "Multi-course delicious meal platter for 20 guests with beverages.",
+                "estimated_price": 5000.0,
+                "quantity": 1,
+                "search_terms": "party food catering package",
+                "shopping_links": {
+                  "swiggy": "https://www.swiggy.com/search?query=party+food+catering+package",
+                  "zomato": "https://www.zomato.com/search?q=party+food+catering+package"
+                }
+              }
+            ]
+          },
+          {
+            "category": "decoration",
+            "allocation": 2250.0,
+            "items": [
+              {
+                "name": "Themed Balloon Arch & Fairy Light Decor Kit",
+                "description": "Festive DIY celebration decor set suited for Birthday.",
+                "estimated_price": 2250.0,
+                "quantity": 1,
+                "search_terms": "Birthday decoration balloon arch kit",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Birthday+decoration+balloon+arch+kit",
+                  "flipkart": "https://www.flipkart.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "meesho": "https://www.meesho.com/search?q=Birthday+decoration+balloon+arch+kit",
+                  "myntra": "https://www.myntra.com/search?q=Birthday+decoration+balloon+arch+kit"
+                }
+              }
+            ]
+          },
+          {
+            "category": "entertainment",
+            "allocation": 1800.0,
+            "items": [
+              {
+                "name": "Portable Bluetooth Speaker & Party Games Pack",
+                "description": "Audio entertainment and engaging interactive group board games.",
+                "estimated_price": 1800.0,
+                "quantity": 1,
+                "search_terms": "party games bluetooth party speaker",
+                "shopping_links": {
+                  "bookmyshow": "https://in.bookmyshow.com/search?q=party+games+bluetooth+party+speaker",
+                  "amazon": "https://www.amazon.in/s?k=party+games+bluetooth+party+speaker",
+                  "flipkart": "https://www.flipkart.com/search?q=party+games+bluetooth+party+speaker"
+                }
+              }
+            ]
+          }
+        ],
+        "venue_suggestions": [
+          {
+            "name": "Cosy Home Club / Hall",
+            "type": "Home",
+            "capacity": 30,
+            "estimated_cost": 0.0,
+            "search_terms": "Home party celebration hall",
+            "search_links": {
+              "google": "https://www.google.com/search?q=Home+party+celebration+hall",
+              "booking": "https://www.booking.com/search.html?ss=Home+party+celebration+hall",
+              "makemytrip": "https://www.makemytrip.com/hotels/hotel-listing/?searchText=Home+party+celebration+hall",
+              "oyorooms": "https://www.oyorooms.com/search/?location=Home+party+celebration+hall",
+              "nobroker": "https://www.nobroker.in/property/search/?searchTerm=Home+party+celebration+hall"
+            }
+          }
+        ],
+        "remaining_budget": 5950.0,
+        "additional_suggestions": [
+          "Consider ordering bulk catering from Swiggy/Zomato for discounted per-plate pricing.",
+          "Use reusable fairy lights and paper tassels for eco-friendly budget decoration.",
+          "Create curated Spotify or YouTube Music playlists to save on DJ costs.",
+          "Send digital invitations via WhatsApp/Canva to save paper and printing expenses."
+        ],
+        "calculation_table_inr": [
+          {
+            "category": "Venue",
+            "items_count": 1,
+            "total_cost": 0.0,
+            "percentage_of_budget": 0.0
+          },
+          {
+            "category": "Catering",
+            "items_count": 1,
+            "total_cost": 5000.0,
+            "percentage_of_budget": 33.3
+          },
+          {
+            "category": "Decoration",
+            "items_count": 1,
+            "total_cost": 2250.0,
+            "percentage_of_budget": 15.0
+          },
+          {
+            "category": "Entertainment",
+            "items_count": 1,
+            "total_cost": 1800.0,
+            "percentage_of_budget": 12.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "rec_ee2fc90f",
+      "timestamp": "Sep 28, 2026, 12:12 PM",
+      "type": "home",
+      "recommendation_type": "home",
+      "input_summary": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input": "Rooms: Living Room, Kitchen, Bedroom | Lights: 6, Fans: 3",
+      "input_data": {
+        "total_budget": 30000.0,
+        "num_lights": 6,
+        "num_fans": 3,
+        "num_furniture": 2,
+        "num_dining_tables": 1,
+        "has_living_room": true,
+        "has_kitchen": true,
+        "has_bedroom": true,
+        "additional_requirements": "Warm lighting and modern minimalist theme"
+      },
+      "result_summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "summary": "Total Budget: \u20b930000.00 | Remaining: \u20b9500.00",
+      "result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      },
+      "full_result": {
+        "total_budget": 30000.0,
+        "budget_breakdown": [
+          {
+            "category": "Lighting",
+            "allocation": 2400.0,
+            "items": [
+              {
+                "name": "Philips / Wipro Warm White LED Bulbs (9W)",
+                "description": "Energy-efficient LED bulbs with warm ambient illumination for rooms.",
+                "estimated_price": 400.0,
+                "quantity": 6,
+                "search_terms": "Philips Warm White LED bulb 9W",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Philips+Warm+White+LED+bulb+9W",
+                  "flipkart": "https://www.flipkart.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Philips+Warm+White+LED+bulb+9W",
+                  "myntra": "https://www.myntra.com/search?q=Philips+Warm+White+LED+bulb+9W",
+                  "ajio": "https://www.ajio.com/search/?text=Philips+Warm+White+LED+bulb+9W"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Ceiling_fans",
+            "allocation": 4800.0,
+            "items": [
+              {
+                "name": "Havells / Crompton High Speed Ceiling Fan",
+                "description": "Durable, energy-saving 1200mm ceiling fan suitable for bedrooms and halls.",
+                "estimated_price": 1600.0,
+                "quantity": 3,
+                "search_terms": "Havells Crompton 1200mm Ceiling Fan",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "flipkart": "https://www.flipkart.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "myntra": "https://www.myntra.com/search?q=Havells+Crompton+1200mm+Ceiling+Fan",
+                  "ajio": "https://www.ajio.com/search/?text=Havells+Crompton+1200mm+Ceiling+Fan"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Furniture",
+            "allocation": 16300.0,
+            "items": [
+              {
+                "name": "IKEA Modern Wooden Lounge Chair / Table Unit",
+                "description": "Sleek, minimalist interior furniture piece engineered for compact spaces.",
+                "estimated_price": 8150.0,
+                "quantity": 2,
+                "search_terms": "IKEA wooden modern side table chair",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=IKEA+wooden+modern+side+table+chair",
+                  "flipkart": "https://www.flipkart.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=IKEA+wooden+modern+side+table+chair",
+                  "myntra": "https://www.myntra.com/search?q=IKEA+wooden+modern+side+table+chair",
+                  "ajio": "https://www.ajio.com/search/?text=IKEA+wooden+modern+side+table+chair"
+                }
+              }
+            ]
+          },
+          {
+            "category": "Dining_tables",
+            "allocation": 6000.0,
+            "items": [
+              {
+                "name": "Compact Engineered Wood Dining Table",
+                "description": "Sturdy 4-seater dining table with waterproof melamine finish.",
+                "estimated_price": 6000.0,
+                "quantity": 1,
+                "search_terms": "Wooden 4 seater dining table",
+                "shopping_links": {
+                  "amazon": "https://www.amazon.in/s?k=Wooden+4+seater+dining+table",
+                  "flipkart": "https://www.flipkart.com/search?q=Wooden+4+seater+dining+table",
+                  "ikea": "https://www.ikea.com/in/en/search/?q=Wooden+4+seater+dining+table",
+                  "myntra": "https://www.myntra.com/search?q=Wooden+4+seater+dining+table",
+                  "ajio": "https://www.ajio.com/search/?text=Wooden+4+seater+dining+table"
+                }
+              }
+            ]
+          }
+        ],
+        "calculation_table": [
+          {
+            "category": "Lighting",
+            "items_count": 6,
+            "total_cost": 2400.0,
+            "percentage_of_budget": 8.0
+          },
+          {
+            "category": "Ceiling_fans",
+            "items_count": 3,
+            "total_cost": 4800.0,
+            "percentage_of_budget": 16.0
+          },
+          {
+            "category": "Furniture",
+            "items_count": 2,
+            "total_cost": 16300.0,
+            "percentage_of_budget": 54.3
+          },
+          {
+            "category": "Dining_tables",
+            "items_count": 1,
+            "total_cost": 6000.0,
+            "percentage_of_budget": 20.0
+          }
+        ],
+        "remaining_budget": 500.0,
+        "additional_suggestions": [
+          "Consider festive sale seasons on Flipkart & Amazon for up to 30% discounts.",
+          "Explore IKEA flat-pack furniture to save on shipping and installation charges.",
+          "Choose warm 3000K lighting for living spaces and neutral 4000K for study areas.",
+          "Prioritize multi-functional furniture items for optimal space utilization."
+        ]
+      }
+    }
+  ]
+}

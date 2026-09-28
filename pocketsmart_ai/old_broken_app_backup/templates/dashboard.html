@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Dashboard</h1>
+
+<div id="dash" class="grid">
+    <p class="muted">Loading dashboard...</p>
+</div>
+
+<script>
+requireAuth()
+    .then((data) => {
+        const dash = document.getElementById("dash");
+
+        const card1 = document.createElement("div");
+        card1.className = "card";
+
+        const greeting = document.createElement("h2");
+        greeting.textContent = `Hello, ${data.user.name}`;
+
+        const email = document.createElement("p");
+        email.textContent = data.user.email;
+
+        const count = document.createElement("p");
+        count.textContent =
+            `Saved recommendations: ${data.recommendation_count || 0}`;
+
+        card1.appendChild(greeting);
+        card1.appendChild(email);
+        card1.appendChild(count);
+
+        const card2 = document.createElement("div");
+        card2.className = "card";
+
+        card2.innerHTML = `
+            <h2>Choose a planner</h2>
+            <p>
+                <a href="/home-planner">Home</a> ·
+                <a href="/party-planner">Party</a> ·
+                <a href="/jewelry-planner">Jewelry</a>
+            </p>
+        `;
+
+        dash.replaceChildren(card1, card2);
+    })
+    .catch((error) => {
+        console.error("Dashboard error:", error);
+
+        document.getElementById("dash").innerHTML = `
+            <div class="card">
+                <p class="danger">Unable to load your dashboard.</p>
+                <a href="/login" class="btn">Login again</a>
+            </div>
+        `;
+    });
+</script>
+
+{% endblock %}

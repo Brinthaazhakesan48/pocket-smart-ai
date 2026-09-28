@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card form">
+    <h1>Jewelry Budget Planner</h1>
+
+```
+<form id="jewelryForm" enctype="multipart/form-data">
+
+    <div class="field">
+        <label for="budget">Budget (₹)</label>
+        <input
+            id="budget"
+            name="budget"
+            type="number"
+            min="1"
+            required
+        >
+    </div>
+
+    <div class="row">
+
+        <div class="field">
+            <label for="occasion">Occasion</label>
+            <input
+                id="occasion"
+                name="occasion"
+                type="text"
+                placeholder="Wedding"
+                required
+            >
+        </div>
+
+        <div class="field">
+            <label for="style">Style</label>
+            <select id="style" name="style">
+                <option value="elegant">Elegant</option>
+                <option value="traditional">Traditional</option>
+                <option value="minimal">Minimal</option>
+                <option value="statement">Statement</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="field">
+            <label for="outfit_color">Outfit color</label>
+            <input
+                id="outfit_color"
+                name="outfit_color"
+                type="text"
+                placeholder="Optional"
+            >
+        </div>
+
+        <div class="field">
+            <label for="material">Material</label>
+            <input
+                id="material"
+                name="material"
+                type="text"
+                value="any"
+            >
+        </div>
+
+    </div>
+
+    <div class="field">
+        <label for="image">Optional outfit image</label>
+        <input
+            id="image"
+            name="image"
+            type="file"
+            accept="image/png,image/jpeg,image/webp"
+        >
+    </div>
+
+    <button type="submit" class="btn">
+        Generate recommendations
+    </button>
+
+</form>
+```
+
+</div>
+
+<div id="out" class="result"></div>
+
+<script>
+const jewelryForm = document.getElementById("jewelryForm");
+const out = document.getElementById("out");
+
+jewelryForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    try {
+        const formData = new FormData(jewelryForm);
+
+        const result = await api("/api/generate-jewelry", {
+            method: "POST",
+            body: formData
+        });
+
+        renderResult(result, out);
+
+    } catch (error) {
+        out.innerHTML = `
+            <p class="danger">${error.message}</p>
+        `;
+    }
+});
+</script>
+
+{% endblock %}

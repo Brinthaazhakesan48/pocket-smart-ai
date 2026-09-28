@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card form">
+    <h1>Home Interior Budget Planner</h1>
+
+```
+<form id="homeForm">
+
+    <div class="field">
+        <label for="budget">Budget (₹)</label>
+        <input
+            id="budget"
+            name="budget"
+            type="number"
+            min="1"
+            required
+        >
+    </div>
+
+    <div class="row">
+
+        <div class="field">
+            <label for="room">Room</label>
+            <input
+                id="room"
+                name="room"
+                type="text"
+                placeholder="Living Room"
+                required
+            >
+        </div>
+
+        <div class="field">
+            <label for="style">Style</label>
+            <select id="style" name="style">
+                <option value="modern">Modern</option>
+                <option value="minimal">Minimal</option>
+                <option value="traditional">Traditional</option>
+                <option value="industrial">Industrial</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="field">
+        <label for="items">
+            Items (one per line: category,quantity)
+        </label>
+
+        <textarea
+            id="items"
+            rows="5"
+            placeholder="lighting,2&#10;dining,1&#10;decor,3"
+            required
+        ></textarea>
+    </div>
+
+    <button type="submit" class="btn">
+        Generate plan
+    </button>
+
+</form>
+```
+
+</div>
+
+<div id="out" class="result"></div>
+
+<script>
+const homeForm = document.getElementById("homeForm");
+const out = document.getElementById("out");
+
+homeForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    try {
+        const items = document
+            .getElementById("items")
+            .value
+            .split("\n")
+            .map(line => line.trim())
+            .filter(Boolean)
+            .map(line => {
+                const [category, quantity] = line.split(",");
+
+                return {
+                    category: category.trim(),
+                    quantity: Number(quantity) || 1
+                };
+            });
+
+        if (!items.length) {
+            throw new Error("Please add at least one item.");
+        }
+
+        const data = {
+            budget: Number(document.getElementById("budget").value),
+            room: document.getElementById("room").value.trim(),
+            style: document.getElementById("style").value,
+            items
+        };
+
+        const result = await api("/api/generate-home", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        renderResult(result, out);
+
+    } catch (error) {
+        out.innerHTML = `
+            <p class="dang

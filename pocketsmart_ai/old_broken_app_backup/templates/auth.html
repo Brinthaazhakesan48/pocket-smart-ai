@@ -1,0 +1,79 @@
+<div class="card form">
+    <h1>{{ heading }}</h1>
+    <p class="muted">{{ subtitle }}</p>
+
+```
+<form id="authForm">
+    {% if register %}
+    <div class="field">
+        <label for="name">Name</label>
+        <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            minlength="2"
+            autocomplete="name"
+        >
+    </div>
+    {% endif %}
+
+    <div class="field">
+        <label for="email">Email</label>
+        <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            autocomplete="email"
+        >
+    </div>
+
+    <div class="field">
+        <label for="password">Password</label>
+        <input
+            id="password"
+            name="password"
+            type="password"
+            required
+            minlength="8"
+            autocomplete="{% if register %}new-password{% else %}current-password{% endif %}"
+        >
+    </div>
+
+    <button type="submit" class="btn">{{ action }}</button>
+
+    <p id="msg"></p>
+</form>
+```
+
+</div>
+
+<script>
+document.getElementById("authForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const form = e.target;
+    const fd = new FormData(form);
+    const body = Object.fromEntries(fd);
+
+    const msg = document.getElementById("msg");
+
+    msg.textContent = "";
+
+    try {
+        await api("{{ endpoint }}", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
+
+        window.location.href = "/dashboard";
+    } catch (err) {
+        msg.textContent = err.message || "Something went wrong.";
+        msg.className = "danger";
+    }
+});
+</script>

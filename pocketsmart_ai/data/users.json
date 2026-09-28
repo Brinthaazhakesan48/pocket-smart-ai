@@ -1,0 +1,9 @@
+{
+  "demo": {
+    "username": "demo",
+    "email": "demo@pocketsmart.ai",
+    "full_name": "Sai Kumar",
+    "disabled": false,
+    "hashed_password": "$2b$12$R./a.D9Jnb7LQ1AIIWe8F.ByyjUK9vFZDTrBQndNhoEsGsbYO/1QW"
+  }
+}

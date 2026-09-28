@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card form">
+    <h1>Party Budget Planner</h1>
+
+```
+<form id="partyForm">
+
+    <div class="row">
+        <div class="field">
+            <label for="budget">Budget (₹)</label>
+            <input
+                id="budget"
+                name="budget"
+                type="number"
+                min="1"
+                required
+            >
+        </div>
+
+        <div class="field">
+            <label for="guests">Guests</label>
+            <input
+                id="guests"
+                name="guests"
+                type="number"
+                min="1"
+                required
+            >
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="field">
+            <label for="event_type">Event type</label>
+            <input
+                id="event_type"
+                name="event_type"
+                type="text"
+                placeholder="Birthday"
+                required
+            >
+        </div>
+
+        <div class="field">
+            <label for="venue">Venue</label>
+            <input
+                id="venue"
+                name="venue"
+                type="text"
+                placeholder="Indoor"
+                value="indoor"
+            >
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="field">
+            <label for="city">City</label>
+            <input
+                id="city"
+                name="city"
+                type="text"
+            >
+        </div>
+
+        <div class="field">
+            <label for="food_preference">Food preference</label>
+            <input
+                id="food_preference"
+                name="food_preference"
+                type="text"
+                value="mixed"
+            >
+        </div>
+    </div>
+
+    <button type="submit" class="btn">
+        Generate plan
+    </button>
+
+</form>
+```
+
+</div>
+
+<div id="out" class="result"></div>
+
+<script>
+const partyForm = document.getElementById("partyForm");
+const out = document.getElementById("out");
+
+partyForm.addEventListener("submit", async (event) => {
+    event.preventDefault();
+
+    try {
+        const data = Object.fromEntries(new FormData(partyForm));
+
+        data.budget = Number(data.budget);
+        data.guests = Number(data.guests);
+
+        const result = await api("/api/generate-party", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        renderResult(result, out);
+
+    } catch (error) {
+        out.innerHTML = `
+            <p class="danger">${error.message}</p>
+        `;
+    }
+});
+</script>
+
+{% endblock %}

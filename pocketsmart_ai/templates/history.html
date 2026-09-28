@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recommendation History - PocketSmart AI</title>
+  <link rel="stylesheet" href="/static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar (PDF Page 38) -->
+  <nav class="navbar">
+    <a href="/dashboard" class="brand">
+      <i class="fa-solid fa-wallet"></i> Pocket<span>Smart</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="/dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+      <li><a href="/home-planner"><i class="fa-solid fa-couch"></i> Home Planner</a></li>
+      <li><a href="/party-planner"><i class="fa-solid fa-champagne-glasses"></i> Party Planner</a></li>
+      <li><a href="/jewelry-planner"><i class="fa-solid fa-gem"></i> Jewelry Planner</a></li>
+      <li><a href="/history" class="active"><i class="fa-solid fa-clock-rotate-left"></i> History</a></li>
+      <li><a href="/logout" class="nav-btn nav-btn-outline"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- History Banner (PDF Page 38) -->
+  <header class="dashboard-banner">
+    <div class="hero-content">
+      <h1 class="dashboard-title">Your Recommendation History</h1>
+      <p class="dashboard-subtitle">View and manage all your previous budget plans and recommendations</p>
+    </div>
+  </header>
+
+  <!-- History Content -->
+  <main class="section">
+    <div class="activity-header" style="border:none; margin-bottom:1.5rem;">
+      <i class="fa-solid fa-clock-rotate-left" style="color: #2563eb;"></i> Recent Recommendations
+    </div>
+
+    {% if history_items and history_items|length > 0 %}
+      <div class="history-grid">
+        {% for item in history_items %}
+          <div class="history-card">
+            <div>
+              <div class="history-top">
+                <div class="history-type-tag">
+                  {% if item.type == 'home' %}
+                    <i class="fa-solid fa-house" style="color:#2563eb;"></i> Home Interior Budget
+                  {% elif item.type == 'party' %}
+                    <i class="fa-solid fa-champagne-glasses" style="color:#ea580c;"></i> Party Planning Budget
+                  {% else %}
+                    <i class="fa-solid fa-gem" style="color:#9333ea;"></i> Jewelry Budget
+                  {% endif %}
+                </div>
+                <div class="history-time">{{ item.timestamp }}</div>
+              </div>
+
+              <!-- Stats Box -->
+              <div class="history-stats">
+                <div>
+                  <div class="history-stat-label">Total Budget</div>
+                  <div class="history-stat-val">₹{{ "%.2f"|format(item.result.total_budget|float) }}</div>
+                </div>
+                <div>
+                  <div class="history-stat-label">Remaining</div>
+                  <div class="history-stat-val" style="color:#047857;">₹{{ "%.2f"|format(item.result.remaining_budget|float) }}</div>
+                </div>
+              </div>
+
+              <!-- Meta & Criteria -->
+              <div class="history-meta">
+                {{ item.input_summary }}
+              </div>
+            </div>
+
+            <!-- Action Button -->
+            <button class="btn-details" onclick="openDetailsModal('{{ item.id }}')">
+              <i class="fa-solid fa-eye"></i> View Full Details
+            </button>
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div style="text-align: center; padding: 4rem 1rem; background: #ffffff; border-radius: 12px; border: 1px solid #e2e8f0;">
+        <i class="fa-solid fa-folder-open" style="font-size: 3rem; color: #cbd5e1; margin-bottom: 1rem; display:block;"></i>
+        <h3 style="color: #334155; margin-bottom: 0.5rem;">No Saved Recommendations Yet</h3>
+        <p style="color: #64748b; margin-bottom: 1.5rem;">Your generated budget plans will appear here automatically.</p>
+        <a href="/home-planner" class="btn-card">Start Your First Plan</a>
+      </div>
+    {% endif %}
+  </main>
+
+  <!-- Details Modal -->
+  <div id="details-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeDetailsModal()">&times;</button>
+      <h2 id="modal-title" style="margin-bottom: 0.5rem; color:#1e293b;"></h2>
+      <p id="modal-timestamp" style="font-size: 0.85rem; color:#64748b; margin-bottom: 1.5rem;"></p>
+      
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-bottom">
+      <p>&copy; 2026 PocketSmart AI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const modal = document.getElementById('details-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalTimestamp = document.getElementById('modal-timestamp');
+    const modalBody = document.getElementById('modal-body');
+
+    async function openDetailsModal(id) {
+      modalTitle.textContent = 'Loading Recommendation Details...';
+      modalTimestamp.textContent = '';
+      modalBody.innerHTML = '<div style="text-align:center; padding:2rem;"><span class="spinner"></span></div>';
+      modal.style.display = 'flex';
+
+      try {
+        const response = await fetch(`/recommendation-details/${id}`);
+        if (!response.ok) throw new Error('Details not found');
+        const data = await response.json();
+
+        modalTitle.textContent = `${(data.type || 'Budget').toUpperCase()} Plan Details`;
+        modalTimestamp.textContent = `Generated on ${data.timestamp} | ${data.input_summary || ''}`;
+
+        const res = data.result || {};
+        let html = `
+          <div class="budget-summary-banner" style="margin-bottom: 1.5rem;">
+            <div>Total Budget: ₹${(res.total_budget || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</div>
+            <div>Remaining: <span class="remaining-badge">₹${(res.remaining_budget || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</span></div>
+          </div>
+        `;
+
+        if (res.budget_breakdown) {
+          res.budget_breakdown.forEach(cat => {
+            html += `<h4 style="margin: 1rem 0 0.5rem; color:#1e40af;">${cat.category || 'Category'}</h4>`;
+            html += '<table class="item-table" style="margin-bottom:1.5rem;"><thead><tr><th>Item</th><th>Description</th><th>Price</th><th>Qty</th><th>Shopping Links</th></tr></thead><tbody>';
+            (cat.items || []).forEach(it => {
+              let linksHtml = '<div class="shopping-links-wrap">';
+              for (const [platform, url] of Object.entries(it.shopping_links || {})) {
+                linksHtml += `<a href="${url}" target="_blank" rel="noopener" class="btn-platform btn-${platform}">${platform.toUpperCase()}</a>`;
+              }
+              linksHtml += '</div>';
+
+              html += `<tr>
+                <td><strong>${it.name || 'Item'}</strong></td>
+                <td>${it.description || '-'}</td>
+                <td style="color:#047857; font-weight:700;">₹${parseFloat(it.estimated_price || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</td>
+                <td>${it.quantity || 1}</td>
+                <td>${linksHtml}</td>
+              </tr>`;
+            });
+            html += '</tbody></table>';
+          });
+        }
+
+        if (res.jewelry_recommendations) {
+          html += '<h4 style="margin: 1rem 0 0.5rem; color:#1e40af;">Jewelry Recommendations</h4>';
+          res.jewelry_recommendations.forEach(it => {
+            let linksHtml = '<div class="shopping-links-wrap" style="margin-top:0.4rem;">';
+            for (const [platform, url] of Object.entries(it.shopping_links || {})) {
+              linksHtml += `<a href="${url}" target="_blank" rel="noopener" class="btn-platform btn-${platform}">${platform.toUpperCase()}</a>`;
+            }
+            linksHtml += '</div>';
+
+            html += `
+              <div style="border:1px solid #e2e8f0; border-radius:6px; padding:1rem; margin-bottom:0.75rem; background:#f8fafc;">
+                <div style="display:flex; justify-content:space-between;">
+                  <strong>${it.item_type || 'Jewelry'}</strong>
+                  <span style="color:#047857; font-weight:700;">₹${parseFloat(it.estimated_price || 0).toLocaleString('en-IN', {minimumFractionDigits: 2})}</span>
+                </div>
+                <p style="font-size:0.85rem; color:#475569; margin:0.3rem 0;">${it.description || ''}</p>
+                <div>${linksHtml}</div>
+              </div>
+            `;
+          });
+        }
+
+        if (res.additional_suggestions || res.styling_tips) {
+          const list = res.additional_suggestions || res.styling_tips;
+          html += '<h4 style="margin: 1rem 0 0.5rem; color:#1e293b;">AI Tips & Suggestions</h4><ul style="padding-left:1.2rem; font-size:0.88rem; color:#475569;">';
+          list.forEach(t => { html += `<li>${t}</li>`; });
+          html += '</ul>';
+        }
+
+        modalBody.innerHTML = html;
+      } catch (err) {
+        modalBody.innerHTML = '<div style="color:#b91c1c; padding:1rem;">Failed to load details.</div>';
+      }
+    }
+
+    function closeDetailsModal() {
+      modal.style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        closeDetailsModal();
+      }
+    };
+  </script>
+</body>
+</html>
